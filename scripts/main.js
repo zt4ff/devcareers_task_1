@@ -13,7 +13,7 @@ $input.forEach(element => {
 });
 
 
-AOS.init({ duration: 1000});
+AOS.init({ duration: 500});
 
 
 //Getting the element of the drop-down harmbugar
@@ -22,4 +22,7 @@ let $burger_navigation = document.querySelector(".mobile-nav")
 
 $bar.addEventListener("click", ()=> {
     $burger_navigation.classList.toggle("mobile-display");
+    $bar.classList.toggle("display-fixed")
 })
+
+//Script to make navigation bar stay fixed after it's been called upon
