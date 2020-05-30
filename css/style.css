@@ -45,24 +45,6 @@ html,body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**************HEADER********************/
 header {
     padding-top: 46.0625%;
@@ -237,11 +219,11 @@ header h1 {
 }
 
 .header-navigation li a {
-    color: #9595C9
+    color:  #626780
 }
 
 .header-navigation li a:hover, .header-navigation li a:active {
-    color: #626780;
+    color: #fff;
 }
 
 /*******X*******HEADER*********X***********/
@@ -684,7 +666,18 @@ header h1 {
 }
 
 
+.demo-image iframe {
 
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -869,6 +862,8 @@ footer {
 
    .header-text h1 {
        font-size: 30px;
+       color: white !important;
+       margin-bottom: 15px;
    }
 
    .html {
@@ -1001,7 +996,7 @@ footer {
    }
 
    header {
-       padding-top: 70%;
+       padding-top: 80%;
    }
 
    .shadows {
@@ -1021,6 +1016,14 @@ footer {
        right: 40px;
        top: 20px;
        margin-top: 3%;
+   }
+
+   .header-text {
+     width: 100%;
+     padding: 0;
+     text-align: center;
+     margin: 0 !important;
+     left: 0;
    }
 
 }
